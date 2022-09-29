@@ -23,10 +23,9 @@ function(hunter_pick_scheme)
     hunter_internal_error("hunter_pick_scheme unparsed: ${x_UNPARSED_ARGUMENTS}")
   endif()
 
-  set(_apple_embedded "iphoneos" "iphonesimulator" "appletvos" "appletvsimulator" "watchos" "watchsimulator")
-  list(FIND _apple_embedded "${CMAKE_OSX_SYSROOT}" _found)
+  # requires cmake 3.14
   set(is_iphoneos FALSE)
-  if (${_found} GREATER -1)
+  if ("${CMAKE_SYSTEM_NAME}" STREQUAL "iOS" OR "${CMAKE_SYSTEM_NAME}" STREQUAL "tvOS" OR "${CMAKE_SYSTEM_NAME}" STREQUAL "watchOS")
     set(is_iphoneos TRUE)
   endif()
 
