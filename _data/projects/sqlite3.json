@@ -1,0 +1,2110 @@
+[
+    {
+        "id": 18078401536,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6EAA",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078401536",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078401536",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2023-10-26T10:56:14Z",
+        "started_at": "2023-10-26T10:56:19Z",
+        "completed_at": "2023-10-26T11:08:47Z",
+        "name": "sqlite3 analyze-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:20.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T11:08:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T11:08:46.000Z",
+                "completed_at": "2023-10-26T11:08:46.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2023-10-26T11:08:46.000Z",
+                "completed_at": "2023-10-26T11:08:46.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T11:08:46.000Z",
+                "completed_at": "2023-10-26T11:08:46.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T11:08:46.000Z",
+                "completed_at": "2023-10-26T11:08:46.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078401536",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078401322,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6DKg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078401322",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078401322",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:14Z",
+        "started_at": "2023-10-26T10:56:18Z",
+        "completed_at": "2023-10-26T10:58:08Z",
+        "name": "sqlite3 android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:18.000Z",
+                "completed_at": "2023-10-26T10:56:18.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:58:08.000Z",
+                "completed_at": "2023-10-26T10:58:08.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:08.000Z",
+                "completed_at": "2023-10-26T10:58:08.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:08.000Z",
+                "completed_at": "2023-10-26T10:58:08.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:05.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078401322",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 4,
+        "runner_name": "GitHub Actions 4",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078400562,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6AMg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078400562",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078400562",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:12Z",
+        "started_at": "2023-10-26T10:56:18Z",
+        "completed_at": "2023-10-26T10:58:09Z",
+        "name": "sqlite3 clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:17.000Z",
+                "completed_at": "2023-10-26T10:56:18.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:18.000Z",
+                "completed_at": "2023-10-26T10:56:22.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:22.000Z",
+                "completed_at": "2023-10-26T10:56:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:58:07.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:58:07.000Z",
+                "completed_at": "2023-10-26T10:58:07.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:07.000Z",
+                "completed_at": "2023-10-26T10:58:07.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:07.000Z",
+                "completed_at": "2023-10-26T10:58:07.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:07.000Z",
+                "completed_at": "2023-10-26T10:58:07.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078400562",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 3,
+        "runner_name": "GitHub Actions 3",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078400818,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6BMg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078400818",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078400818",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:13Z",
+        "started_at": "2023-10-26T10:56:20Z",
+        "completed_at": "2023-10-26T10:57:56Z",
+        "name": "sqlite3 gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:20.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:57:55.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:57:55.000Z",
+                "completed_at": "2023-10-26T10:57:55.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:57:55.000Z",
+                "completed_at": "2023-10-26T10:57:55.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:57:55.000Z",
+                "completed_at": "2023-10-26T10:57:55.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:57:55.000Z",
+                "completed_at": "2023-10-26T10:57:55.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078400818",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 24,
+        "runner_name": "GitHub Actions 9",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078400966,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6Bxg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078400966",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078400966",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:13Z",
+        "started_at": "2023-10-26T10:56:20Z",
+        "completed_at": "2023-10-26T10:57:52Z",
+        "name": "sqlite3 gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:20.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:57:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:57:50.000Z",
+                "completed_at": "2023-10-26T10:57:50.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:57:50.000Z",
+                "completed_at": "2023-10-26T10:57:50.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:57:52.000Z",
+                "completed_at": "2023-10-26T10:57:52.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:57:50.000Z",
+                "completed_at": "2023-10-26T10:57:50.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078400966",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 5,
+        "runner_name": "GitHub Actions 5",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078401151,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6Cfw",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078401151",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078401151",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:13Z",
+        "started_at": "2023-10-26T10:56:19Z",
+        "completed_at": "2023-10-26T10:58:08Z",
+        "name": "sqlite3 gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:18.000Z",
+                "completed_at": "2023-10-26T10:56:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:58:05.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:05.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:08.000Z",
+                "completed_at": "2023-10-26T10:58:08.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:05.000Z",
+                "completed_at": "2023-10-26T10:58:05.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078401151",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 21,
+        "runner_name": "GitHub Actions 6",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078402569,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6ICQ",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078402569",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078402569",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:17Z",
+        "started_at": "2023-10-26T10:56:23Z",
+        "completed_at": "2023-10-26T11:02:08Z",
+        "name": "sqlite3 ios-nocodesign-15-5-arm64-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:32.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:32.000Z",
+                "completed_at": "2023-10-26T10:56:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:33.000Z",
+                "completed_at": "2023-10-26T10:56:33.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:33.000Z",
+                "completed_at": "2023-10-26T10:56:33.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:33.000Z",
+                "completed_at": "2023-10-26T10:56:33.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:33.000Z",
+                "completed_at": "2023-10-26T10:56:33.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:33.000Z",
+                "completed_at": "2023-10-26T11:02:05.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T11:02:05.000Z",
+                "completed_at": "2023-10-26T11:02:05.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T11:02:05.000Z",
+                "completed_at": "2023-10-26T11:02:05.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T11:02:06.000Z",
+                "completed_at": "2023-10-26T11:02:06.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T11:02:06.000Z",
+                "completed_at": "2023-10-26T11:02:07.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078402569",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 22,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078403590,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6MBg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078403590",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078403590",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2023-10-26T10:56:19Z",
+        "started_at": "2023-10-26T10:56:21Z",
+        "completed_at": "2023-10-26T10:57:24Z",
+        "name": "sqlite3 mingw-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:21.000Z",
+                "completed_at": "2023-10-26T10:56:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:41.000Z",
+                "completed_at": "2023-10-26T10:56:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:41.000Z",
+                "completed_at": "2023-10-26T10:56:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:41.000Z",
+                "completed_at": "2023-10-26T10:56:42.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:56:42.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:56:42.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:56:42.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:57:19.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2023-10-26T10:57:19.000Z",
+                "completed_at": "2023-10-26T10:57:19.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:57:19.000Z",
+                "completed_at": "2023-10-26T10:57:23.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:57:23.000Z",
+                "completed_at": "2023-10-26T10:57:23.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078403590",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 23,
+        "runner_name": "GitHub Actions 8",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078403770,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6Mug",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078403770",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078403770",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:19Z",
+        "started_at": "2023-10-26T10:56:22Z",
+        "completed_at": "2023-10-26T11:01:13Z",
+        "name": "sqlite3 msys-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:22.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:46.000Z",
+                "completed_at": "2023-10-26T10:56:46.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:46.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T11:01:06.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T11:01:07.000Z",
+                "completed_at": "2023-10-26T11:01:07.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T11:01:07.000Z",
+                "completed_at": "2023-10-26T11:01:11.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T11:01:12.000Z",
+                "completed_at": "2023-10-26T11:01:12.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078403770",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 25,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078402873,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6JOQ",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078402873",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078402873",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:17Z",
+        "started_at": "2023-10-26T10:56:22Z",
+        "completed_at": "2023-10-26T10:58:52Z",
+        "name": "sqlite3 ninja-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:22.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:43.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:43.000Z",
+                "completed_at": "2023-10-26T10:56:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:45.000Z",
+                "completed_at": "2023-10-26T10:56:45.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:45.000Z",
+                "completed_at": "2023-10-26T10:56:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:45.000Z",
+                "completed_at": "2023-10-26T10:58:46.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:47.000Z",
+                "completed_at": "2023-10-26T10:58:47.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:48.000Z",
+                "completed_at": "2023-10-26T10:58:51.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:51.000Z",
+                "completed_at": "2023-10-26T10:58:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078402873",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 28,
+        "runner_name": "GitHub Actions 13",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078403034,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6J2g",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078403034",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078403034",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:18Z",
+        "started_at": "2023-10-26T10:56:21Z",
+        "completed_at": "2023-10-26T11:00:06Z",
+        "name": "sqlite3 nmake-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:21.000Z",
+                "completed_at": "2023-10-26T10:56:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:22.000Z",
+                "completed_at": "2023-10-26T10:56:48.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:48.000Z",
+                "completed_at": "2023-10-26T10:56:49.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:49.000Z",
+                "completed_at": "2023-10-26T10:56:49.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:49.000Z",
+                "completed_at": "2023-10-26T10:56:50.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:50.000Z",
+                "completed_at": "2023-10-26T10:56:51.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:51.000Z",
+                "completed_at": "2023-10-26T10:56:51.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:51.000Z",
+                "completed_at": "2023-10-26T10:56:51.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:51.000Z",
+                "completed_at": "2023-10-26T10:59:59.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:59:59.000Z",
+                "completed_at": "2023-10-26T10:59:59.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T11:00:00.000Z",
+                "completed_at": "2023-10-26T11:00:05.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T11:00:05.000Z",
+                "completed_at": "2023-10-26T11:00:05.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078403034",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 26,
+        "runner_name": "GitHub Actions 11",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078402397,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6HXQ",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078402397",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078402397",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:16Z",
+        "started_at": "2023-10-26T10:56:27Z",
+        "completed_at": "2023-10-26T10:59:54Z",
+        "name": "sqlite3 osx-12-3-arch-universal2-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:27.000Z",
+                "completed_at": "2023-10-26T10:56:30.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:30.000Z",
+                "completed_at": "2023-10-26T10:56:39.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:56:40.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:40.000Z",
+                "completed_at": "2023-10-26T10:59:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:51.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:51.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:51.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078402397",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 29,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078401726,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6Evg",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078401726",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078401726",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:15Z",
+        "started_at": "2023-10-26T10:56:20Z",
+        "completed_at": "2023-10-26T10:57:53Z",
+        "name": "sqlite3 sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:20.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:57:51.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:57:51.000Z",
+                "completed_at": "2023-10-26T10:57:51.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:57:51.000Z",
+                "completed_at": "2023-10-26T10:57:51.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:57:53.000Z",
+                "completed_at": "2023-10-26T10:57:53.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:57:51.000Z",
+                "completed_at": "2023-10-26T10:57:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078401726",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 27,
+        "runner_name": "GitHub Actions 12",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078401984,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6FwA",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078401984",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078401984",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:15Z",
+        "started_at": "2023-10-26T10:56:20Z",
+        "completed_at": "2023-10-26T10:58:20Z",
+        "name": "sqlite3 sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:19.000Z",
+                "completed_at": "2023-10-26T10:56:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:20.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:24.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:58:18.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:58:18.000Z",
+                "completed_at": "2023-10-26T10:58:18.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:18.000Z",
+                "completed_at": "2023-10-26T10:58:18.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:20.000Z",
+                "completed_at": "2023-10-26T10:58:20.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:18.000Z",
+                "completed_at": "2023-10-26T10:58:19.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078401984",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 30,
+        "runner_name": "GitHub Actions 15",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078402239,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6Gvw",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078402239",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078402239",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:16Z",
+        "started_at": "2023-10-26T10:56:21Z",
+        "completed_at": "2023-10-26T10:58:15Z",
+        "name": "sqlite3 sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:21.000Z",
+                "completed_at": "2023-10-26T10:56:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:21.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:56:26.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:26.000Z",
+                "completed_at": "2023-10-26T10:58:13.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2023-10-26T10:58:13.000Z",
+                "completed_at": "2023-10-26T10:58:13.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:58:13.000Z",
+                "completed_at": "2023-10-26T10:58:13.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:58:15.000Z",
+                "completed_at": "2023-10-26T10:58:15.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:58:14.000Z",
+                "completed_at": "2023-10-26T10:58:14.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078402239",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 31,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078403224,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6KmA",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078403224",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078403224",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2023-10-26T10:56:18Z",
+        "started_at": "2023-10-26T10:56:23Z",
+        "completed_at": "2023-10-26T11:00:03Z",
+        "name": "sqlite3 vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:24.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:25.000Z",
+                "completed_at": "2023-10-26T10:56:45.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:45.000Z",
+                "completed_at": "2023-10-26T10:56:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:46.000Z",
+                "completed_at": "2023-10-26T10:56:46.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:46.000Z",
+                "completed_at": "2023-10-26T10:56:46.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:56:47.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:47.000Z",
+                "completed_at": "2023-10-26T10:59:56.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2023-10-26T10:59:56.000Z",
+                "completed_at": "2023-10-26T10:59:56.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:59:58.000Z",
+                "completed_at": "2023-10-26T11:00:01.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T11:00:01.000Z",
+                "completed_at": "2023-10-26T11:00:01.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078403224",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 33,
+        "runner_name": "GitHub Actions 18",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 18078403393,
+        "run_id": 6653098016,
+        "workflow_name": "CI",
+        "head_branch": "pr.sqlite3",
+        "run_url": "https://api.github.com/repos/hjmallon/hunter/actions/runs/6653098016",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCfnulM8AAAAENY6LQQ",
+        "head_sha": "a6672e7a0d3a0c7db2ff5255e2d169b1b2f0a9b9",
+        "url": "https://api.github.com/repos/hjmallon/hunter/actions/jobs/18078403393",
+        "html_url": "https://github.com/hjmallon/hunter/actions/runs/6653098016/job/18078403393",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2023-10-26T10:56:19Z",
+        "started_at": "2023-10-26T10:56:22Z",
+        "completed_at": "2023-10-26T10:59:55Z",
+        "name": "sqlite3 vs-16-2019-win64-store-10-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2023-10-26T10:56:22.000Z",
+                "completed_at": "2023-10-26T10:56:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2023-10-26T10:56:23.000Z",
+                "completed_at": "2023-10-26T10:56:41.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2023-10-26T10:56:41.000Z",
+                "completed_at": "2023-10-26T10:56:41.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:56:42.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2023-10-26T10:56:42.000Z",
+                "completed_at": "2023-10-26T10:56:43.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2023-10-26T10:56:43.000Z",
+                "completed_at": "2023-10-26T10:56:43.000Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:56:44.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 9,
+                "started_at": "2023-10-26T10:56:44.000Z",
+                "completed_at": "2023-10-26T10:59:50.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:51.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2023-10-26T10:59:51.000Z",
+                "completed_at": "2023-10-26T10:59:54.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2023-10-26T10:59:54.000Z",
+                "completed_at": "2023-10-26T10:59:54.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/hjmallon/hunter/check-runs/18078403393",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 32,
+        "runner_name": "GitHub Actions 17",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    }
+]
