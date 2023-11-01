@@ -1,13 +1,13 @@
 .. spelling::
 
-    xxhash
+    xxHash
 
 .. index::
-  single: crypto ; xxhash
+  single: crypto ; xxHash
 
-.. _pkg.xxhash:
+.. _pkg.xxHash:
 
-xxhash
+xxHash
 ======
 
 -  `Official <https://github.com/Cyan4973/xxHash>`__
@@ -15,7 +15,7 @@ xxhash
 -  `Example <https://github.com/cpp-pm/hunter/blob/master/examples/xxhash/CMakeLists.txt>`__
 -  Added by `Warchant <https://github.com/Warchant>`__ (`pr-1738 <https://github.com/ruslo/hunter/pull/1738>`__)
 
-.. literalinclude:: /../examples/xxhash/CMakeLists.txt
+.. literalinclude:: /../examples/xxHash/CMakeLists.txt
   :language: cmake
   :start-after: # DOCUMENTATION_START {
   :end-before: # DOCUMENTATION_END }

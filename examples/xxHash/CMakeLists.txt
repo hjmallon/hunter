@@ -7,12 +7,12 @@ cmake_minimum_required(VERSION 3.5)
 # * https://github.com/hunter-packages/gate
 include("../common.cmake")
 
-project(download-xxhash)
+project(download-xxHash)
 
 # DOCUMENTATION_START {
-hunter_add_package(xxhash)
-find_package(xxhash CONFIG REQUIRED)
+hunter_add_package(xxHash)
+find_package(xxHash CONFIG REQUIRED)
 
 add_executable(boo boo.cpp)
-target_link_libraries(boo PUBLIC xxhash)
+target_link_libraries(boo PUBLIC xxHash::xxhash)
 # DOCUMENTATION_END }
