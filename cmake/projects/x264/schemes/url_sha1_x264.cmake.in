@@ -308,7 +308,7 @@ else()
         URL_HASH
           SHA1=@HUNTER_PACKAGE_SHA1@
         DOWNLOAD_DIR
-          "@HUNTER_PACKAGE_DOWNLOAD_DIR@"
+          "@HUNTER_PACKAGE_DOWNLOAD_DIR@/${ios_architecture}"
         TLS_VERIFY
           "@HUNTER_TLS_VERIFY@"
         SOURCE_DIR

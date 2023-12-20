@@ -129,9 +129,6 @@ else()
 endif()
 
 foreach(configuration ${configuration_types})
-  # All configurations use the same URL which will be downloaded only once
-  # i.e. overhead only for unpacking archive + no files from the previous
-  # build will be left in case package do some insource modification (wrongly)
   string(TOUPPER "${configuration}" configuration_upper)
   string(COMPARE EQUAL "${configuration_upper}" "RELEASE" is_release)
   set(postfix_name "CMAKE_${configuration_upper}_POSTFIX")
@@ -168,7 +165,7 @@ foreach(configuration ${configuration_types})
       GIT_SHALLOW
       ${http_credentials}
       DOWNLOAD_DIR
-      "@HUNTER_PACKAGE_DOWNLOAD_DIR@"
+      "@HUNTER_PACKAGE_DOWNLOAD_DIR@/${configuration}"
       TLS_VERIFY
       "@HUNTER_TLS_VERIFY@"
       SOURCE_DIR

@@ -269,7 +269,7 @@ foreach(variant ${configure_architectures})
       URL_HASH
       SHA1=@HUNTER_PACKAGE_SHA1@ # SHA1 hash
       DOWNLOAD_DIR
-      "@HUNTER_PACKAGE_DOWNLOAD_DIR@" # Archive destination location
+      "@HUNTER_PACKAGE_DOWNLOAD_DIR@/${variant}" # Archive destination location
       TLS_VERIFY
       "@HUNTER_TLS_VERIFY@"
       SOURCE_DIR

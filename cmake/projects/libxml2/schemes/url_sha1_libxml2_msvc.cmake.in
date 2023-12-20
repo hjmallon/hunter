@@ -84,7 +84,7 @@ foreach(build_config_type @HUNTER_PACKAGE_CONFIGURATION_TYPES@)
         URL_HASH
         SHA1=@HUNTER_PACKAGE_SHA1@
         DOWNLOAD_DIR
-        "@HUNTER_PACKAGE_DOWNLOAD_DIR@"
+        "@HUNTER_PACKAGE_DOWNLOAD_DIR@/${build_config_type}"
         TLS_VERIFY
         "@HUNTER_TLS_VERIFY@"
         SOURCE_DIR
